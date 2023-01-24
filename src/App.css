@@ -1,0 +1,74 @@
+:root {
+    --red: #840032;
+    --blue: #087F8C;
+    --darkblue: #002642;
+    --nav-orange: #ff634782;
+  }
+  .App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%;
+    width: 100%; */
+    /* height: 100vh; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255,183,0);
+    /* background: radial-gradient(circle, #ffb700 29%, #f7d961 75%, #f6ec80 100%); */
+    background: linear-gradient(to top, #A15E49 0%, #77878B 49%, #488286 92%);
+  }
+  
+  html, body, body > div, .App {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .logo {
+    text-decoration: underline;
+    font-size: 4rem;
+    color: black;
+  }
+  .signUp:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold ;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .headtop {
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+  }
+  
+  .headtop a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .Navbar {
+    /* background-color: rgb(255, 99, 71); */
+    background-color: #2B2D42;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 1);
+  }
+  .Navbar a {
+    text-decoration: none;
+    color: gray;
+    font-size: 2rem;
+  }
+  .Navbar a:hover {
+    text-decoration: overline black;
+    color: wheat;
+  }
+  

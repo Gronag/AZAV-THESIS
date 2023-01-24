@@ -1,0 +1,18 @@
+.home{
+    box-sizing: border-box;
+    display: flex;
+    margin: 15vh 20vw;
+    gap: 5rem;
+}
+.intro{
+    border: solid 1px black;
+    min-height: 25vh;
+    max-width: 25vw;
+    padding: 1rem;
+    background: linear-gradient(to top, #0088FF 0%, #FF6347 100%);    color: var(--darkblue);
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 1);
+}
+.homeimg {
+    max-width: 40vw;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 1);
+}
